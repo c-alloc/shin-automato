@@ -23,24 +23,8 @@ namespace DiscordBot.utils
 
 
             // NOTA MENTAL: arrumar esse codigo repetido.
-            await uni.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Unicesumar:"));
 
-            await fe.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":C:"));
-            await fe.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":C#:"));
-            await fe.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Python:"));
-            await fe.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Ruby:"));
-            await fe.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Javascript:"));
-            await fe.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Java:"));
-
-            await pro.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Pro:"));
-            await pro.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Matematica:"));
-            await pro.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Analise:"));
-            await pro.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Front-end:"));
-            await pro.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Back-end:"));
-            await pro.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":Embarcado:"));
-            await pro.CreateReactionAsync(DiscordEmoji.FromName(ctx.Client, ":DaraScience:"));
-
-
+            await Events.CreateReaction(ctx, uni, fe, pro);
             while (true)
             {
                 await Events.GetReaction(ctx, uni);
