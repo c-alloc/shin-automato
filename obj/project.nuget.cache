@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0l5WsirL6R0hBtjDBoyWsahMTFAoo27a9ciXQGBVtG4LLhPG4VjJnuIlFJHHEKLvtuRoWLMslaYPavjAgKiBkg==",
+  "dgSpecHash": "R2Jtjh4NlqBcLQShsrhzv1lzIsnQJh84y/pMHTBbrjS7OLo2rICLBvmiAZ2UI7/mYBzU+lalDr7haCsMRGzLPw==",
   "success": true,
-  "projectFilePath": "/home/tera/Documents/Projects/csharp/DiscordBot/DiscordBot.csproj",
+  "projectFilePath": "/home/tera/Documents/Projects/csharp/shin-automato/DiscordBot.csproj",
   "expectedPackageFiles": [
     "/home/tera/.nuget/packages/concurrenthashset/1.1.0/concurrenthashset.1.1.0.nupkg.sha512",
     "/home/tera/.nuget/packages/dsharpplus/4.2.0/dsharpplus.4.2.0.nupkg.sha512",

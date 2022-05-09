@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tera/Documents/Projects/csharp/DiscordBot/DiscordBot.csproj": {}
+    "/home/tera/Documents/Projects/csharp/shin-automato/DiscordBot.csproj": {}
   },
   "projects": {
-    "/home/tera/Documents/Projects/csharp/DiscordBot/DiscordBot.csproj": {
+    "/home/tera/Documents/Projects/csharp/shin-automato/DiscordBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tera/Documents/Projects/csharp/DiscordBot/DiscordBot.csproj",
+        "projectUniqueName": "/home/tera/Documents/Projects/csharp/shin-automato/DiscordBot.csproj",
         "projectName": "DiscordBot",
-        "projectPath": "/home/tera/Documents/Projects/csharp/DiscordBot/DiscordBot.csproj",
+        "projectPath": "/home/tera/Documents/Projects/csharp/shin-automato/DiscordBot.csproj",
         "packagesPath": "/home/tera/.nuget/packages/",
-        "outputPath": "/home/tera/Documents/Projects/csharp/DiscordBot/obj/",
+        "outputPath": "/home/tera/Documents/Projects/csharp/shin-automato/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tera/.nuget/NuGet/NuGet.Config"
